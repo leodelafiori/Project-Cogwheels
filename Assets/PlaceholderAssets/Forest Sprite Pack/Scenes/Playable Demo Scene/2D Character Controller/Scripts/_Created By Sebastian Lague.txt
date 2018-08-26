@@ -1,0 +1,4 @@
+This character controller system is available online by Sebastian Lague.
+The controller in this package has a few minor tweaks highlighted by the comment "tweak" 
+
+Source: https://github.com/SebLague/2DPlatformer-Tutorial
