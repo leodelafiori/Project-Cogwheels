@@ -1210,7 +1210,7 @@ GameObject:
   m_Layer: 10
   m_Name: PointB
   m_TagString: Untagged
-  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1497,6 +1497,7 @@ MonoBehaviour:
   speed: 1
   aggroDistance: 4
   attackDistance: 0.8
+  maxHealth: 500
   enemyHealth: {fileID: 1863849189}
   damageTimer: 0.7
   idleTimer: 1
@@ -4910,7 +4911,7 @@ GameObject:
   m_Layer: 10
   m_Name: PointA
   m_TagString: Untagged
-  m_Icon: {fileID: 8418204508859773708, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
