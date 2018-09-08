@@ -70,7 +70,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1237817370503518}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.725, y: -0.03, z: -0.00390625}
+  m_LocalPosition: {x: -7.319, y: -0.011, z: -0.00390625}
   m_LocalScale: {x: 0.597442, y: 0.597442, z: 0.597442}
   m_Children:
   - {fileID: 4526514515732874}
@@ -182,7 +182,6 @@ MonoBehaviour:
   - {fileID: 1385904951058182, guid: 7e180ec80ede153439f9fc50393c123c, type: 2}
   - {fileID: 1793389764669262, guid: 6b3fea56adebeae4ea092248840d4ef0, type: 2}
   - {fileID: 1865294123817012, guid: 0f613193dba2d3f4ea6708120479d765, type: 2}
-  groundCheck: {fileID: 4526514515732874}
   checkRadius: 0.1
   groundOffset: 0.45
   ground:
@@ -199,11 +198,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fab971efae599a4ba466122037cb6cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  resetTimeBtwAttacks: 0.5
   whatIsEnemies:
     serializedVersion: 2
     m_Bits: 1024
   attackPos: {fileID: 4368652644884286}
-  attackRange: 0.5
+  attackRange: 0.3
   damage: 20
   maxTimerAttackAnimation: 0.5
 --- !u!114 &114952513015422890

@@ -2,11 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-/* Anotations
- * Make unity assertions
- *  
- * */
-
 public class Player_Human_Movement : MonoBehaviour {
 
     #region Declaring variables //////////////////////////////////////////////////////////////////////////////////////
@@ -61,8 +56,8 @@ public class Player_Human_Movement : MonoBehaviour {
     // Void Fixed update (used to all physics related things on the game
     private void FixedUpdate()
     {
-        moveInput = Input.GetAxis("Horizontal");
-        animator.SetFloat("InputSpeed",Mathf.Abs(moveInput));
+            moveInput = Input.GetAxis("Horizontal");
+            animator.SetFloat("InputSpeed", Mathf.Abs(moveInput));
 
         #region Animations/Running/Walking) //////////////////////////////////////////////////////////////////////////////////////
         if (moveInput != 0 && Input.GetKey(KeyCode.LeftShift) && isMovable && !isRolling && !isBlocking && !Player_Human_Combat.isAttacking)

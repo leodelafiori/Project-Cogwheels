@@ -26,7 +26,7 @@ public class Enemy1 : MonoBehaviour {
     [SerializeField] private float attackDistance = 1;
     //Variables for enemy health
     private float health = 50;
-    private float maxHealth = 50;
+    [SerializeField] private float maxHealth = 50;
     [SerializeField] private Transform enemyHealth;
     private bool isDead = false;
     //Variable for timing the animations
@@ -40,6 +40,7 @@ public class Enemy1 : MonoBehaviour {
     #region Awake (to set animator/attacking collider)
     private void Awake()
     {
+        health = maxHealth;
         pathfinding = GetComponent<Pathfinding>();
         player = GameObject.FindGameObjectWithTag("Player");
         playerTransform = player.GetComponent<Transform>();
